@@ -52,7 +52,7 @@ body{
 
 .list-item-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 1rem 2rem;
 }
 
 .navigation{
@@ -108,4 +108,21 @@ body{
 
 .ow{
     background-color: var(--off-white);
+}
+        /* footer */
+footer{
+    background-color:var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
