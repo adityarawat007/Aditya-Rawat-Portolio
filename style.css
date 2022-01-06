@@ -9,6 +9,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 /* font-family: 'Yaldevi', sans-serif; */
+    margin: 0px;
 }
  hr{
      margin: 2rem 0rem;
@@ -16,6 +17,7 @@ body{
 .conatiner{
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 .container-center{
@@ -60,7 +62,7 @@ body{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 0rem;
 
 }
 
@@ -118,7 +120,10 @@ footer{
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
-
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 .footer .link{
     color: white;
 }
