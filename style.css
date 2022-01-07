@@ -23,14 +23,13 @@ body{
 .container-center{
     max-width:100%;
     margin:auto;
-    
+        
 }
 
 /* links */
 .link{
     text-decoration: none;
-    
-    
+       
 }
 
 .primary-link{
@@ -103,13 +102,16 @@ body{
 }
 
 .section{
-    padding: 2rem;
+    /* padding: 2rem; */
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
 
 .ow{
     background-color: var(--off-white);
+    
 }
         /* footer */
 footer{
